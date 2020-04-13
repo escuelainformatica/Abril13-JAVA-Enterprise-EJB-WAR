@@ -4,10 +4,7 @@
         <servlet-name>Faces Servlet</servlet-name>
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>HolaServlet</servlet-name>
-        <servlet-class>cl.cocacola.beanmanejado.HolaServlet</servlet-class>
-    </servlet>
+
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>

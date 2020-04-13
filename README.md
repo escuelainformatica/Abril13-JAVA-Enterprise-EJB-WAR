@@ -9,11 +9,11 @@ Para ello necesitamos Glassfish instalado.
 
 Vamos a configurar lo siguiente:
 
-Web.xml 3.1
+Web.xml 3.1   Como se muestra las pagina web. JSF (Java Service Face), CDI 
 
-ejb.xml 3.2
+ejb.xml 3.2   Configurar la version correcto.
 
-persistence.xml 2.1
+persistence.xml 2.1  Conecta a la base de datos. Spring boot, el equivalente es **application. properties**
 
 
 * EAR = Enterprise Archiver.   
@@ -34,10 +34,11 @@ persistence.xml 2.1
         * HTML
         * JSP (anticuado)
         * JSF Java Service Face.
-       
+   
+
 ![](https://www.arquitecturajava.com/wp-content/uploads/EJBinWAR.jpg)
 
 
-        
-   
+​        
+
    
