@@ -6,7 +6,17 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
+        <!-- # { } = se llama expression language o EL -->
+        
         <h:outputText value="#{peliculaBean.ejemplo}"></h:outputText>
+        
+     
+        <h:dataTable var="alias" value="#{peliculaBean.peliculas}">
+            <h:column>#{alias.idPelicula}</h:column>
+            <h:column>#{alias.nombre}</h:column>
+        
+        </h:dataTable>
+        
         
         
     </h:body>

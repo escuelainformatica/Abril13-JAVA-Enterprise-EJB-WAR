@@ -48,4 +48,34 @@ copiar el jdbc del driver que necesitamos usar mysql-connector-java-8.0.19.jar
 
 http://localhost:4848/
 
+## Tecnologia JSF Java Service Faces y CDI
+
+Cliente -> JSF (xhtml) -> Bean Manejado (Class)
+
+MVC (Spring Boot)
+
+Cliente -> Clase -> html.
+
+* CDI Scope (alcance)
+
+  * RequestScoped (dura mientras se mantenga el navegador en su misma pagina)
+
+    * Formulario!
+
+  * ViewScoped (mantiene los datos, mientras se estan viendo)
+
+    * Paginas de solo visualizacion, datos que solo quiero mostrar y no mantener datos.
+
+  * SessionScoped (Se mantiene vivo mientras se mantiene la sesion)
+
+    * Utilizado para paginas login
+
+  * ApplicationScoped (Se mantiene vivo los datos mientras la aplicacion este viva. Estos datos los ven todos los usuarios y solo se pierde cuando se reiniciar el servidor)
+
+    * 
+
+    
+
+
+
  
