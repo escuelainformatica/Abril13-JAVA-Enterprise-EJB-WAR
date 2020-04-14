@@ -9,8 +9,5 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>HolaServlet</servlet-name>
-        <url-pattern>/HolaServlet</url-pattern>
-    </servlet-mapping>
+
 </web-app>

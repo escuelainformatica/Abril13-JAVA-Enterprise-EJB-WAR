@@ -24,3 +24,7 @@ hs_err_pid*
 /nbproject/
 /Abril13-war/nbproject/
 /Abril13-ejb/nbproject/
+/Abril13-ejb/build/
+/dist/
+/Abril13-war/dist/
+/Abril13-war/build/

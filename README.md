@@ -3,7 +3,7 @@ Clase de Abril 13
 
 ![](https://github.com/jorgecc/Abril3/raw/master/form1.jpg)
 
-Vamos a crear una aplicacion empresarial.
+Vamos a crear una aplicación empresarial.
 
 Para ello necesitamos Glassfish instalado.
 
@@ -38,7 +38,14 @@ persistence.xml 2.1  Conecta a la base de datos. Spring boot, el equivalente es 
 
 ![](https://www.arquitecturajava.com/wp-content/uploads/EJBinWAR.jpg)
 
+## Configurar Glassfish
 
-​        
+En la carpeta C:\glassfish5\glassfish\domains\domain1\lib
 
-   
+copiar el jdbc del driver que necesitamos usar mysql-connector-java-8.0.19.jar
+
+ Ir a la pagina de administracion de glassfish
+
+http://localhost:4848/
+
+ 
