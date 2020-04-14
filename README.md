@@ -72,7 +72,21 @@ Cliente -> Clase -> html.
 
   * ApplicationScoped (Se mantiene vivo los datos mientras la aplicacion este viva. Estos datos los ven todos los usuarios y solo se pierde cuando se reiniciar el servidor)
 
-    * 
+    
+
+    ## Pendiente
+
+    * Terminar el proyecto, agregar un formulario y pantalla de login
+
+    * Web Service usando Java EE.
+
+      * Spring boot se recomienda usar los web service REST
+
+      * JAVA EE se recomienda utilizar los web service SOAP
+
+      * Tengan instalado el SOAPUI https://www.soapui.org/downloads/soapui.html (version community)
+
+        
 
     
 
